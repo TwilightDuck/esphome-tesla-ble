@@ -15,7 +15,7 @@ This project [PedroKTFC/esphome-tesla-ble](https://github.com/PedroKTFC/esphome-
 
 I've put this section at the start because it seems people don't always read all the way to the end! So please read this section at least.
 > [!TIP]
-> **Always** start from the example yaml [`tesla-ble-example.yml`](./tesla-ble.example.yml). This has been tested many times and should work in almost every case.
+> **Always** start from the example yaml [`tesla-ble.example.yml`](./tesla-ble.example.yml). This has been tested many times and should work in almost every case.
 
 If the build fails, try the following (assuming you're building using the Home Assistant ESPHome builder):
 - In the ESPHome builder UI, clean the build files (as shown in the image below) and try installing again. If that doesn't work, try the next step.
@@ -198,13 +198,13 @@ The following is the original method. I have never tried this and I do not maint
 
 ### Recommended path
 
-For an example ESPHome dashboard, see [`tesla-ble-example.yml`](./tesla-ble.example.yml). Please always start from this. I strongly recommend building this using the ESPHome Device Builder add-on in Home Assistant as this makes building and re-building (eg for updates) much easier.
+For an example ESPHome dashboard, see [`tesla-bleexample.yml`](./tesla-ble.example.yml). Please always start from this. I strongly recommend building this using the ESPHome Device Builder add-on in Home Assistant as this makes building and re-building (eg for updates) much easier.
 
 ### Board types
 
-Various board types have been shown to work with this project. Always start from [`tesla-ble-example.yml`](./tesla-ble.example.yml). Some boards require additional/changed yaml, please refer to the [`wiki`](https://github.com/PedroKTFC/esphome-tesla-ble/wiki/How-to-build-for-different-board-types).
+Various board types have been shown to work with this project. Always start from [`tesla-ble.example.yml`](./tesla-ble.example.yml). Some boards require additional/changed yaml, please refer to the [`wiki`](https://github.com/PedroKTFC/esphome-tesla-ble/wiki/How-to-build-for-different-board-types).
 
-The [`tesla-ble-example.yml`](./tesla-ble.example.yml) file is setup to be used with a standard ESP32 device.
+The [`tesla-ble.example.yml`](./tesla-ble.example.yml) file is setup to be used with a standard ESP32 device.
 
 **Alternative**
 
